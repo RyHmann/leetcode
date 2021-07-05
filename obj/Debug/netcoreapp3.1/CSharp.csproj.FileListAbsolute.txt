@@ -1,0 +1,13 @@
+C:\Repos\Leetcode\CSharp\bin\Debug\netcoreapp3.1\CSharp.exe
+C:\Repos\Leetcode\CSharp\bin\Debug\netcoreapp3.1\CSharp.deps.json
+C:\Repos\Leetcode\CSharp\bin\Debug\netcoreapp3.1\CSharp.runtimeconfig.json
+C:\Repos\Leetcode\CSharp\bin\Debug\netcoreapp3.1\CSharp.runtimeconfig.dev.json
+C:\Repos\Leetcode\CSharp\bin\Debug\netcoreapp3.1\CSharp.dll
+C:\Repos\Leetcode\CSharp\bin\Debug\netcoreapp3.1\CSharp.pdb
+C:\Repos\Leetcode\CSharp\obj\Debug\netcoreapp3.1\CSharp.csprojAssemblyReference.cache
+C:\Repos\Leetcode\CSharp\obj\Debug\netcoreapp3.1\CSharp.AssemblyInfoInputs.cache
+C:\Repos\Leetcode\CSharp\obj\Debug\netcoreapp3.1\CSharp.AssemblyInfo.cs
+C:\Repos\Leetcode\CSharp\obj\Debug\netcoreapp3.1\CSharp.csproj.CoreCompileInputs.cache
+C:\Repos\Leetcode\CSharp\obj\Debug\netcoreapp3.1\CSharp.dll
+C:\Repos\Leetcode\CSharp\obj\Debug\netcoreapp3.1\CSharp.pdb
+C:\Repos\Leetcode\CSharp\obj\Debug\netcoreapp3.1\CSharp.genruntimeconfig.cache
