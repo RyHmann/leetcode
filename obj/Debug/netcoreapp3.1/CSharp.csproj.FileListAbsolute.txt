@@ -11,3 +11,16 @@ C:\Repos\Leetcode\CSharp\obj\Debug\netcoreapp3.1\CSharp.csproj.CoreCompileInputs
 C:\Repos\Leetcode\CSharp\obj\Debug\netcoreapp3.1\CSharp.dll
 C:\Repos\Leetcode\CSharp\obj\Debug\netcoreapp3.1\CSharp.pdb
 C:\Repos\Leetcode\CSharp\obj\Debug\netcoreapp3.1\CSharp.genruntimeconfig.cache
+C:\Repos\excercises\leetcode\bin\Debug\netcoreapp3.1\CSharp.exe
+C:\Repos\excercises\leetcode\bin\Debug\netcoreapp3.1\CSharp.deps.json
+C:\Repos\excercises\leetcode\bin\Debug\netcoreapp3.1\CSharp.runtimeconfig.json
+C:\Repos\excercises\leetcode\bin\Debug\netcoreapp3.1\CSharp.runtimeconfig.dev.json
+C:\Repos\excercises\leetcode\bin\Debug\netcoreapp3.1\CSharp.dll
+C:\Repos\excercises\leetcode\bin\Debug\netcoreapp3.1\CSharp.pdb
+C:\Repos\excercises\leetcode\obj\Debug\netcoreapp3.1\CSharp.csproj.AssemblyReference.cache
+C:\Repos\excercises\leetcode\obj\Debug\netcoreapp3.1\CSharp.AssemblyInfoInputs.cache
+C:\Repos\excercises\leetcode\obj\Debug\netcoreapp3.1\CSharp.AssemblyInfo.cs
+C:\Repos\excercises\leetcode\obj\Debug\netcoreapp3.1\CSharp.csproj.CoreCompileInputs.cache
+C:\Repos\excercises\leetcode\obj\Debug\netcoreapp3.1\CSharp.dll
+C:\Repos\excercises\leetcode\obj\Debug\netcoreapp3.1\CSharp.pdb
+C:\Repos\excercises\leetcode\obj\Debug\netcoreapp3.1\CSharp.genruntimeconfig.cache

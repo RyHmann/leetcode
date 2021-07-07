@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "98KBxgGgeOXhvVUWEUz9mkjE2U6f3LNYstpvUjjU13rHtt0fxwAZJhAFzZXiclfftVlzdtgXMzT+o+h+Lkn42A==",
+  "dgSpecHash": "jfJyrGoXDBLv4AdKQht3bZFownv5BBNPjVHCJdlC1TwrhigE1baMmPawHj9qYYs1OjXlw8X5Zf5opaYetM0NlQ==",
   "success": true,
-  "projectFilePath": "C:\\Repos\\Leetcode\\CSharp\\CSharp.csproj",
+  "projectFilePath": "C:\\Repos\\excercises\\leetcode\\CSharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
