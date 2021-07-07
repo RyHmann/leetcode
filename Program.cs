@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using CSharp.Solutions;
 
 namespace CSharp
@@ -30,12 +31,18 @@ namespace CSharp
             int intToTest = 1223321;
             bool isPalindrome = palindromeTester.IsPalindrome(intToTest);
             System.Console.WriteLine(isPalindrome);
-            */
 
+            // RomanNumerals
             var numeralConverter = new RomanToInteger();
             string romanNumerals = "MCMXCIV";
             int romanValue = numeralConverter.RomanToInt(romanNumerals);
             System.Console.WriteLine(romanValue);
+            */
+
+            var prefixCalculator = new LongestCommonPrefix();
+            string[] testArray = new string[]{"flower", "flower", "flower", "flower"};
+            string longestCommonPrefix = prefixCalculator.GetLongestCommonPrefix(testArray);
+            System.Console.WriteLine(longestCommonPrefix);
         }
     }
 }
