@@ -11,23 +11,30 @@ namespace CSharp.Solutions
             {
                 return "";
             }
-            char[] matchingChars = new char[0];
+            var stringBuilder = new StringBuilder();
             string charactersToCheck = strings[0];
-            int letterIncrementer = 0;
-            int arrayIncrementer = 0;
-            
-            // index through array
-            foreach (string word in strings)
+            for (int i = 0; i < charactersToCheck.Length; i++)
             {
-                // index through each nth character of each word
-                // if index through entire array successful, add letter to matchingChars and continue to nextt characterToCheck
-                while (arrayIncrementer < strings.Length)
+                int arrayIncrementer = 0;
+
+                for (int j = 1; j < strings.Length; j++)
                 {
-                    
+                    if (i > strings[j].Length - 1)
+                    {
+                        return stringBuilder.ToString();
+                    }
+                    else if (charactersToCheck[i] != strings[j][i])
+                    {
+                        return stringBuilder.ToString();
+                    }
+                    arrayIncrementer++;
+                }
+                if (arrayIncrementer == strings.Length - 1)
+                {
+                    stringBuilder.Append(charactersToCheck[i]);
                 }
             }
-
-            return new string(matchingChars).TrimEnd('\0');
+            return stringBuilder.ToString();
         }
     }
 }

@@ -40,9 +40,9 @@ namespace CSharp
             */
 
             var prefixCalculator = new LongestCommonPrefix();
-            string[] testArray = new string[]{"flower", "flower", "flower", "flower"};
+            string[] testArray = new string[]{"ab"};
             string longestCommonPrefix = prefixCalculator.GetLongestCommonPrefix(testArray);
-            System.Console.WriteLine(longestCommonPrefix);
+            System.Console.WriteLine($"Longest prefix: {longestCommonPrefix}");
         }
     }
 }
