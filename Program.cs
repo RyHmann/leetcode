@@ -37,12 +37,23 @@ namespace CSharp
             string romanNumerals = "MCMXCIV";
             int romanValue = numeralConverter.RomanToInt(romanNumerals);
             System.Console.WriteLine(romanValue);
-            */
+            
 
             var prefixCalculator = new LongestCommonPrefix();
             string[] testArray = new string[]{"ab"};
             string longestCommonPrefix = prefixCalculator.GetLongestCommonPrefix(testArray);
             System.Console.WriteLine($"Longest prefix: {longestCommonPrefix}");
+            
+            var FibSolver = new FibonacciCalculator();
+            int n = 7;
+            int solution = FibSolver.Fib(n);
+            System.Console.WriteLine(solution);
+            */
+
+            var comboCount = new CandyCombinationCalculator();
+            int[] candyTypes = new int[]{6, 6, 6, 6};
+            int totalTypes = comboCount.DistributeCandies(candyTypes);
+            System.Console.WriteLine(totalTypes);
         }
     }
 }
