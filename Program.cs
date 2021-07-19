@@ -8,7 +8,7 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
-            /*
+            
             // Reverse Integer
             var numReverser = new ReverseInteger();
             int testInt = 1534236469;
@@ -27,9 +27,8 @@ namespace CSharp
             }
 
             // Palindrome
-            var palindromeTester = new Palindrome();
             int intToTest = 1223321;
-            bool isPalindrome = palindromeTester.IsPalindrome(intToTest);
+            bool isPalindrome = Palindrome.IsPalindrome(intToTest);
             System.Console.WriteLine(isPalindrome);
 
             // RomanNumerals
@@ -39,20 +38,17 @@ namespace CSharp
             System.Console.WriteLine(romanValue);
             
 
-            var prefixCalculator = new LongestCommonPrefix();
-            string[] testArray = new string[]{"ab"};
-            string longestCommonPrefix = prefixCalculator.GetLongestCommonPrefix(testArray);
+            string[] prefixTestArray = new string[]{"ab"};
+            string longestCommonPrefix = LongestCommonPrefix.GetLongestCommonPrefix(prefixTestArray);
             System.Console.WriteLine($"Longest prefix: {longestCommonPrefix}");
             
-            var FibSolver = new FibonacciCalculator();
             int n = 7;
-            int solution = FibSolver.Fib(n);
+            int solution = FibonacciCalculator.Fib(n);
             System.Console.WriteLine(solution);
-            */
+            
 
-            var comboCount = new CandyCombinationCalculator();
             int[] candyTypes = new int[]{6, 6, 6, 6};
-            int totalTypes = comboCount.DistributeCandies(candyTypes);
+            int totalTypes = CandyCombinationCalculator.DistributeCandies(candyTypes);
             System.Console.WriteLine(totalTypes);
         }
     }

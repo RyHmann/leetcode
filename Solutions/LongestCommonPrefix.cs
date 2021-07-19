@@ -5,7 +5,7 @@ namespace CSharp.Solutions
 {
     public class LongestCommonPrefix
     {
-        public string GetLongestCommonPrefix(string[] strings)
+        public static string GetLongestCommonPrefix(string[] strings)
         {
             if (strings.Length < 1)
             {

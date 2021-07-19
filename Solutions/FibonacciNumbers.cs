@@ -4,7 +4,7 @@ namespace CSharp.Solutions
 {
     public class FibonacciCalculator
     {
-        public int Fib(int n)
+        public static int Fib(int n)
         {
             if (n == 0)
             {

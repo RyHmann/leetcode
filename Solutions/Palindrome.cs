@@ -4,13 +4,14 @@ namespace CSharp.Solutions
 {
     public class Palindrome
     {
-        public bool IsPalindrome(int x) 
+        public static bool IsPalindrome(int x) 
         {
             if (x < 0)
             {
                 return false;
             }
-            int[] intArray = ConvertIntToArray(x);
+            Palindrome intArrayCreator = new Palindrome();
+            int[] intArray = intArrayCreator.ConvertIntToArray(x);
             for (int i = 0; i < intArray.Length / 2; i++)
             {
                 if (intArray[i] != intArray[(intArray.Length - 1) - i])

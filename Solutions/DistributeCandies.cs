@@ -5,7 +5,7 @@ namespace CSharp.Solutions
 {
     public class CandyCombinationCalculator
     {
-        public int DistributeCandies(int[] candyType)
+        public static int DistributeCandies(int[] candyType)
         {
             var candyHashTable = new HashSet<int>(candyType);
             int numCandyTypes = candyHashTable.Count;
