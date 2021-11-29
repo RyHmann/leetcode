@@ -4,10 +4,17 @@ using System.Text;
 
 namespace CSharp.Solutions
 {
+    
     class TwoSum
     {
+        public InjectionTesting _injector;
+        public TwoSum(InjectionTesting injector)
+        {
+            _injector = injector;
+        }
         public int[] getTwoSum(int[] nums, int target)
         {
+            _injector.PrintHello();
             int[] twoSumArray = new int[2];
             int incrementer = 0;
             foreach(int num in nums)
