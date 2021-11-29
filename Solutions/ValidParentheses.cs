@@ -2,41 +2,57 @@ using System;
 
 namespace CSharp.Solutions
 {
-    class ValidParentheses
+    public class ValidParentheses
     {
         private int bracketCounter = 0;
         private int parenthesesCounter = 0;
         private int curlyBracketCounter = 0;
+        private char[] charArray;
 
-        public static bool IsValidParentheses(string testString)
+        public ValidParentheses(string stringToTest)
         {
-            throw NotImplementedException();
+            charArray = stringToTest.ToCharArray();
         }
 
-        private static void ParanthesesIncrementor(char bracket)
+        public bool IsValidParentheses()
         {
-            switch (bracket)
+            bool isValid = false;
+            foreach (var charToCheck in charArray)
             {
-                case == '[':
-                    bracketCounter += 1;
-                    break;
-                case == '(':
-                    parenthesesCounter += 1;
-                    break;
-                case == '{':
-                    curlyBracketCounter += 1;
-                    break;
-                case == ']':
-                    bracketCounter -= 1;
-                    break;
-                case == ')':
-                    parenthesesCounter -= 1;
-                    break;
-                case == '}':
-                    curlyBracketCounter -= 1;
-                default:
-                    Console.WriteLine("Invalid character.");
-                    break;
+                IncrementCounters(charToCheck);
+            }
+            if (bracketCounter == 0 && parenthesesCounter == 0 && curlyBracketCounter == 0)
+            {
+                isValid = true;
+            }
+            return isValid;
+        }
+
+        private void IncrementCounters(char bracket)
+        {
+            if (bracket == '[')
+            {
+                bracketCounter += 1;
+            }
+            else if (bracket == ']')
+            {
+                bracketCounter -= 1;
+            }
+            else if (bracket == '{')
+            {
+                curlyBracketCounter += 1;
+            }
+            else if (bracket == '}')
+            {
+                curlyBracketCounter -= 1;
+            }
+            else if (bracket == '(')
+            {
+                parenthesesCounter += 1;
+            }
+            else if (bracket == ')')
+            {
+                parenthesesCounter -= 1;
             }
         }
     }

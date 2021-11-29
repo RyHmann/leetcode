@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\excercises\\leetcode\\CSharp.csproj": {}
+    "C:\\Users\\ryanh\\leetcode\\CSharp.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\excercises\\leetcode\\CSharp.csproj": {
+    "C:\\Users\\ryanh\\leetcode\\CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\excercises\\leetcode\\CSharp.csproj",
+        "projectUniqueName": "C:\\Users\\ryanh\\leetcode\\CSharp.csproj",
         "projectName": "CSharp",
-        "projectPath": "C:\\Repos\\excercises\\leetcode\\CSharp.csproj",
+        "projectPath": "C:\\Users\\ryanh\\leetcode\\CSharp.csproj",
         "packagesPath": "C:\\Users\\ryanh\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\excercises\\leetcode\\obj\\",
+        "outputPath": "C:\\Users\\ryanh\\leetcode\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
           "C:\\Users\\ryanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
